@@ -63,6 +63,7 @@ And redo the whole analysis
 ce.sub.frontier <- getFrontier(ce.mat.sub)
 plotFrontier(ce.mat.sub, ce.sub.frontier)
 ```
+
 `r sprintf("Frontier is formed by strategies: %s", paste( sort(ce.mat.sub[ce.sub.frontier,1]), collapse=", "))`
 
 [@Suen2015]: http://mdm.sagepub.com/cgi/doi/10.1177/0272989X15583496
