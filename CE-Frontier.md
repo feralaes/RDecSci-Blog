@@ -37,18 +37,7 @@ To do this we will need to load `ggplot2` package
 
 ```r
 require(ggplot2)
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```r
 require(scales) # For label formatting in ggplot
-```
-
-```
-## Loading required package: scales
 ```
 
 
