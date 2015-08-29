@@ -54,7 +54,7 @@ require(scales) # For label formatting in ggplot
 
 ![](CE-Frontier_files/figure-html/ce-frontier-1.png) 
 
-Because the original dataset is to big, we will randomly sample 10 strategies and use them as our total set of strategies to find the frontier.
+Because the original dataset is to big, we will randomly sample 15 strategies and use them as our total set of strategies to find the frontier.
 
 ```r
 set.seed(3877) # Set seed for random sampling
