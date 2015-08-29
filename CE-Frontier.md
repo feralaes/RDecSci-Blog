@@ -8,7 +8,8 @@ In this post I will show how to plot the cost-effectiveness frontier with the st
 # Finding the frontier
 To find the frontier we will use a recently published algorithm written by my colleagues Sze-Chuan Suen and Jeremy Golhaber-Fiebert at MDM journal.[@Suen2015]
 
-# Ploting the frontier in `ggplot`
+We will use 
+# Ploting the frontier using `ggplot`
 
 
 ```r
