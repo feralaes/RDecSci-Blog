@@ -64,6 +64,7 @@ plotFrontier(ce.mat.sub, ce.sub.frontier)
 ```
 
 ![](CE-Frontier_files/figure-html/Get-frontier-reduced-2.png) 
+
 Frontier is formed by strategies: 31, 34, 89
 
 [@Suen2015]: http://mdm.sagepub.com/cgi/doi/10.1177/0272989X15583496
