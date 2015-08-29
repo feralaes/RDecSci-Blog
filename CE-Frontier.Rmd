@@ -1,0 +1,34 @@
+---
+title: "CE Frontier"
+author: "Fernando Alarid-Escudero"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+bibliography: /Users/FAE/Dropbox/BibTeX/RDecSci-Blog.bib
+csl: sage-vancouver.csl
+output: 
+  html_document: 
+    fig_caption: yes
+    keep_md: yes
+    toc: yes
+---
+
+# Overview
+In this post I will show how to plot the cost-effectiveness frontier with the strategies from a cost-effectiveness analysis. We will use a recently published efficent algorithm to find the strategies that form the efficient frontier. Once we know which strategies are in teh frontier we will plot all the strategies and the draw the frontier.
+
+# Finding the frontier
+To find the frontier we will use a recently published algorithm written by my colleagues Sze-Chuan Suen and Jeremy Golhaber-Fiebert at MDM journal.[@Suen2015]
+
+# Ploting the frontier in `ggplot`
+
+```{r}
+summary(cars)
+```
+
+You can also embed plots, for example:
+
+```{r ce-frontier, echo=FALSE}
+plot(cars)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# References
